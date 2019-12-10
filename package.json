@@ -12,7 +12,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0"
   },
-  "homepage": "https://MahmoudAhmadOsman.github.io/mao-portfolio",
+  "homepage": "https://MahmoudAhmadOsman.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

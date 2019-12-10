@@ -19,9 +19,14 @@
       width: 250px;
       height: 250px;
       border: 2px solid #e7e7e736;
-      padding: 20px;
-      margin-bottom: 10px;
-   }
+      border-radius: 50%;;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+
+
    #contact__me caption.mr{
      margin-top: 5px;
      font-weight: bold;

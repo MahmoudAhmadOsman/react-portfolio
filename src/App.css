@@ -50,11 +50,11 @@ font-weight: bold;
   display:block;
 }
 .author_details{
-  width:60%;
+  /* width:60%;
   height:auto;
    float:right;
   display:block;
-  background-color:#ddd
+  background-color:#ddd */
 
 }.author_details h3{
   color:#f00;
@@ -64,11 +64,11 @@ font-weight: bold;
   margin: 0px 20px;
 }
 .author_details img{
-  width:100px;
+  /* width:100px;
   height:100px;
   border-radius:50%;
   display:block;
-  margin: 0px 42%;
+  margin: 0px 42%; */
   
   }
 
@@ -88,35 +88,6 @@ font-weight: bold;
 
 
   }
- /* card style */
- .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 100%;
-  display:block;
-  position:relative;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.card .container {
-  display:block;
-  margin-left:15px;
-  margin-right:15px;
-}
-.card p{
- padding: 5px 70px;
-}
-
-.card img{
-  width: 80px;
-    height: 80px;
-    border-radius: 50px;
-}
-
-/* Skilss style */
 
 
 .skills{
