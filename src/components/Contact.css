@@ -1,0 +1,71 @@
+#contact__me{
+      width: auto;
+       min-height: 100vh;
+       margin-top: 40px;
+       margin-bottom: 52px;
+       text-transform: uppercase;
+       display: block;
+       position: relative;
+      
+
+   }
+   
+   #contact__me h1{
+     color: #000;
+     font-weight: bold;
+     
+   }
+   #contact__me img{
+      width: 250px;
+      height: 250px;
+      border: 2px solid #e7e7e736;
+      padding: 20px;
+      margin-bottom: 10px;
+   }
+   #contact__me caption.mr{
+     margin-top: 5px;
+     font-weight: bold;
+     position: relative;
+     display: inline-block;
+  color: #ce4b7c;;
+   }
+  
+   #contact__me .fa-envelope-o,
+   #contact__me .fa-phone{
+    font-size: 35px;
+    margin-right: 30px;
+    color: #fdfdfd;
+    background: #ce4b7c;
+    padding: 0px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+   }
+
+   ul.social__media li{
+    display: inline-block;
+    margin-right: 16px;
+    color: #444;
+    font-size: 12px;
+  
+   }
+   ul.social__media li .fa{
+    color: #ff0361;
+   }
+   ul.social__media li a{
+    color: #000;
+    border-bottom: 2px solid #eaeaea;
+    border-width: 2px;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    
+}
+   ul.social__media li a:hover{
+    border-bottom: 2px solid #cf4b7c;
+    text-decoration: none;
+   }

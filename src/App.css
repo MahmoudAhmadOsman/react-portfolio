@@ -1,0 +1,140 @@
+body{
+  height: auto;
+
+}
+/* Main nav */
+
+
+.navbar-default {
+    /* background-color: #f1e8e8;
+    border-color: #f1e8e8; */
+background: #1a2a6c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand {
+    color: #fff6f6;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color: #f4a82b !important;
+  background:none;
+}
+.App {
+  text-align: left;
+  position:relative;
+  height:1500px;
+}
+.App h1{
+  text-align:center;
+  color:#644;
+}
+#contact .btn{
+cursor:pointer;
+border-radius:50px;
+margin:10px auto 15px 30px;
+font-weight: bold;
+}
+
+.App #welcome{
+  width:40%;
+  height:100vh;
+  background-color:#ccc;
+  font-size:14px;
+  text-align:center;
+  float:left;
+  display:block;
+}
+.author_details{
+  width:60%;
+  height:auto;
+   float:right;
+  display:block;
+  background-color:#ddd
+
+}.author_details h3{
+  color:#f00;
+  text-align:center;
+}
+.author_details p, h3{
+  margin: 0px 20px;
+}
+.author_details img{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  display:block;
+  margin: 0px 42%;
+  
+  }
+
+  /* Footer style */
+  .footer{
+  font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 30px;
+    height: 30px;
+    background: #635c5c;
+    color: #fff;
+    left: 0;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+
+
+  }
+ /* card style */
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  display:block;
+  position:relative;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card .container {
+  display:block;
+  margin-left:15px;
+  margin-right:15px;
+}
+.card p{
+ padding: 5px 70px;
+}
+
+.card img{
+  width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+/* Skilss style */
+
+
+.skills{
+  background-color:#fdfdfd;
+  /* border:1px solid #e2dcdc; */
+}
+h2.skill_header{
+  font-size:24px;
+  font-weight:bold;
+}
+
+/* Education section */
+.education{
+  background-color: #fdf9f9;
+    border: 2px solid #f7f4f4;
+}
+h2.ed{
+  font-size:24px;
+  font-weight:bold;
+}
+
