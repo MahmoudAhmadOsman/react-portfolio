@@ -11,10 +11,12 @@
    }
    
    #contact__me h1{
-     color: #000;
+      color: #7b7777;
      font-weight: bold;
+     font-size: 25px;
      
    }
+ 
    #contact__me img{
       width: 250px;
       height: 250px;
@@ -28,26 +30,63 @@
 
 
    #contact__me caption.mr{
-     margin-top: 5px;
-     font-weight: bold;
-     position: relative;
-     display: inline-block;
-  color: #ce4b7c;;
+      margin-top: 5px;
+      font-weight: bold;
+      position: relative;
+      display: inline-block;
+      color: #ce4b7c;;
+      cursor: pointer;
+  
+   }
+
+   p.display_details{
+      display: none;
+    background: #433;
+    color: #fff;
+    padding: 20px;
    }
   
    #contact__me .fa-envelope-o,
    #contact__me .fa-phone{
-    font-size: 35px;
+    font-size: 25px;
     margin-right: 30px;
     color: #fdfdfd;
     background: #ce4b7c;
     padding: 0px;
     border-radius: 50px;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
     text-align: center;
+
+    filter: alpha(opacity=70);
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    cursor: pointer;
+    opacity: .8;
    }
+
+   #contact__me .fa-envelope-o:hover {
+      transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+  }
+  #contact__me .fa-phone:hover {
+   transform: rotate(360deg);
+   -moz-transform: rotate(360deg);
+   -ms-transform: rotate(360deg);
+   -webkit-transform: rotate(360deg);
+   -o-transform: rotate(360deg);
+}
+     
+
+
+
 
    ul.social__media li{
     display: inline-block;
@@ -70,7 +109,11 @@
     -o-transition: all .4s ease-in-out;
     
 }
-   ul.social__media li a:hover{
-    border-bottom: 2px solid #cf4b7c;
-    text-decoration: none;
-   }
+ 
+
+   ul.social__media li a:hover {
+      border-bottom: 2px solid #cf4b7c;
+      
+      text-decoration: none;
+      letter-spacing: 1px;
+  }

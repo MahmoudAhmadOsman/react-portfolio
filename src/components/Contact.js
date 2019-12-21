@@ -3,6 +3,8 @@ import './Contact.css';
 
 const Contact = () => {
 
+    
+
   return(
      <div className="container" id="contact__me">
         <div className="container">
@@ -13,8 +15,12 @@ const Contact = () => {
                     {/* <img src="https://cdn0.iconfinder.com/data/icons/avatar-78/128/12-512.png" class="img-responsive" alt="Mahmoud Osman" /> */}
                     <img src="http://netsansoftware.com/images/mahmoud.jpg" alt="Mahmoud Osman" />
 
-                    <caption className="text-center mr">Mr. Mahmoud Osman</caption>
+                    <caption className="text-center show__details mr">Mr. Mahmoud Osman</caption>
                     
+                    <p className="display_details">
+                    Please, contact me via my email address OR call me at my cell phone. I am looking forward to talking to you soon!.
+Thank You.
+                    </p>
                 </div>
                 <div className="col-md-7">
                     <h1>Send an Email</h1><hr />
@@ -29,7 +35,15 @@ const Contact = () => {
 
 <li><a href="www.netsansoftware.com" target="_blank"><i class="fa fa-star-o" aria-hidden="true"></i> Visit</a></li>                    </ul>
                    
-                    
+                   
+                  
+
+
+
+
+
+
+                 
 
                 
 
@@ -40,6 +54,7 @@ const Contact = () => {
   );
  
 };
+
 
 
 export default Contact;
