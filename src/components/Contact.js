@@ -1,5 +1,7 @@
 import React from 'react';
 import './Contact.css';
+import './WelcomeAlert';
+import WelcomeAlert from './WelcomeAlert';
 
 const Contact = () => {
 
@@ -11,7 +13,7 @@ const Contact = () => {
             <div className="row">
                 <div className="col-md-5">
                     <h1>Contact Me</h1><hr />
-                    
+                  
                     {/* <img src="https://cdn0.iconfinder.com/data/icons/avatar-78/128/12-512.png" class="img-responsive" alt="Mahmoud Osman" /> */}
                     <img src="http://netsansoftware.com/images/mahmoud.jpg" alt="Mahmoud Osman" />
 
@@ -42,14 +44,18 @@ Thank You.
 
 
 
-
                  
 
                 
 
                 </div>
+
+                
             </div>
         </div>
+
+
+        <WelcomeAlert />
   </div>
   );
  

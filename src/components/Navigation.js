@@ -21,12 +21,11 @@ const Navigation = () => {
      <NavLink to="/about">About</NavLink>
      <NavLink to="/contact">Conact</NavLink>
   
-  
    <a  class="icon" onClick={myFunction}>
     <i class="fa fa-bars"></i>
   </a>
      
-      </ul>
+  </ul>
 
 
 
