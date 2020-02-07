@@ -2,14 +2,18 @@ import React from 'react';
 import './About.css';
 const About = () => {
 
+  const abouStyle = {
+    color:"#888"
+  };
+
 return(
   <section className="about">
 <div className="container">
 <div className="card">
 <img src="http://netsansoftware.com/images/mahmoud.jpg" alt="Mahmoud Osman" />
     <div className="card-body">
-      <h4 className="card-title">Mahmoud Osman</h4>
-      <div className="card-text">
+      <h4 className="card-title" style={abouStyle}>Mahmoud Osman</h4>
+      <div className="card-text" style={abouStyle}>
       <p>Mahmoud Osman is an entrepreneur, software/web designer and developer.
           He studied at Champlain College, and he has a bachelor's degree of computer science specialized in Web Design and Development.</p>
 
