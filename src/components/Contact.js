@@ -66,8 +66,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
-      {/* <WelcomeAlert /> */}
     </div>
   );
 };
