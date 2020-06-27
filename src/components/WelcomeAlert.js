@@ -1,50 +1,47 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class WelcomeAlert extends Component {
-
-state ={
+  state = {
     fname: "Mahmoud ",
-    lname: "Osman"
-};
+    lname: "Osman",
+  };
 
-//intial render - the constructor will render or will be executed first
-    constructor(props){
-        super(props);
+  //intial render - the constructor will render or will be executed first
+  constructor(props) {
+    super(props);
 
-        //this.state.fname;
+    //this.state.fname;
 
-        console.log("constructor is called first");
-    }
+    console.log("constructor is called first");
+  }
 
-componentDidMount() {
+  componentDidMount() {
     console.log("component did mount");
     //alert("component did mount");
-  
-}
+  }
 
+  //component will mount
 
-//component will mount
+  componentWillMount() {
+    console.log("componentWillMount");
+  }
 
-componentWillMount(){
-    console.log("componentWillMount")
-}
-
-render(){
+  render() {
     return (
-       
-
-<div class="alert alert-success alert-dismissible">
-<button type="button" class="close" data-dismiss="alert">&times;</button>
-        <p>State <code> constructor () </code> Values Are Printed here!</p>
+      <div class="alert alert-success alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <p>
+          State <code> constructor () </code> Values Are Printed here!
+        </p>
         <ul>
-            <li>{this.state.fname}</li>
-            <li>{this.state.lname}</li>
+          <li>{this.state.fname}</li>
+          <li>{this.state.lname}</li>
         </ul>
-        
-</div>
+      </div>
     );
-}
-
+  }
 }
 
 export default WelcomeAlert;

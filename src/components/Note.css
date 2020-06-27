@@ -1,20 +1,20 @@
-.note{
-    background-color: #2b2b2b;
+.note {
+  background-color: #2b2b2b;
   color: #fff;
   padding: 20px;
   border-radius: 0px;
   margin-bottom: 40px;
 }
-.note h1{
-color: #fff;
+.note h1 {
+  color: #fff;
 }
-.note:hover{
-border-radius: 0px;
-cursor: pointer;
-border-right: 200px solid #151313;
--webkit-transition: all .5s ease-in-out;  
--moz-transition: all .5s ease-in-out;  
--o-transition: all .5s ease-in-out;  
--ms-transition: all .5s ease-in-out;  
-transition: all .5s ease-in-out;
+.note:hover {
+  border-radius: 0px;
+  cursor: pointer;
+  border-right: 200px solid #151313;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
