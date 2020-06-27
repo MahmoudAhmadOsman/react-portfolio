@@ -29,7 +29,7 @@ In the project directory, you can run:
 
 This project is live on github pages. So, please visit the link below and see the demo app.
 
-github-pages Link: [react-formik](https://mahmoudahmadosman.github.io/react-portfolio/)
+github-pages Link: [react-portfolio](https://mahmoudahmadosman.github.io/)
 
 ## Contributing
 
