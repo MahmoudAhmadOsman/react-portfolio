@@ -12,7 +12,7 @@ $ git clone https://github.com/MahmoudAhmadOsman/react-portfolio.git
 ```
 
 
-## Then Install All Dependencies
+## Then install all dependencies
 
 ```bash
 $ npm install --save
@@ -27,7 +27,7 @@ In the project directory, you can run:
 
 This project is live on github pages. So, please visit the link below and see the demo app.
 
-github-pages Link: [react-portfolio](https://mahmoudahmadosman.github.io/)
+github-pages Link: [react-portfolio](https://mahmoudahmadosman.github.io/react-portfolio/)
 
 
 ## Contributing
