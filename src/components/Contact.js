@@ -48,12 +48,12 @@ const Contact = () => {
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
+                <a href="https://www.linkedin.com/in/mahmoudaoman/">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i> linkedin
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://github.com/MahmoudAhmadOsman">
                   <i class="fa fa-git" aria-hidden="true"></i> Github
                 </a>
               </li>
