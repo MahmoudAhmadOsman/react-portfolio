@@ -23,17 +23,17 @@ In the project directory, you can run:
 ### `npm start`
 
 
-
-
 ## Note:
 
 This project is live on github pages. So, please visit the link below and see the demo app.
 
 github-pages Link: [react-portfolio](https://mahmoudahmadosman.github.io/)
 
+
 ## Contributing
 
 Please, feel free to contrubute to this and correct me if you see anything wrong about this project or if you have any sugguestions that would also welcomed.
+
 
 ### My Website
 
